@@ -2,14 +2,14 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 heart = [
     {
-        "heart-id": "60",
-        "date": "10/10/2024",
-        "heart-rate": "180bpm"
+        "heart-id": "0",
+        "date": "13/11/2023",
+        "heart-rate": "110bpm"
     },
     {
-        "heart-id": "40",
-        "date": "11/11/2024",
-        "heart-rate": "140bpm"
+        "heart-id": "3",
+        "date": "14/12/2024",
+        "heart-rate": "180bpm"
     }
 
 ]
